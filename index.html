@@ -10,7 +10,7 @@
           font-family: sans-serif;
           width: 500px;
           margin: auto;
-          background-color: white-space;
+          background-color: white-space nowrap;
       }
         </style>
 <h>On this site you can find copyright free pics of the team, the logo and more!</h>
@@ -20,13 +20,22 @@
 <h2>Redirect to a Arsenal Football Club's  page.</h2>
 <p>*This is a fanmade page, not the official Arsenal website.*</p>
 
-<button onclick="myFunction()">Arsenal Website.</button>
-
+<html>
+<head>
 <script>
-function myFunction() {
-  location.replace("https://www.arsenal.com")
+function openWin() {
+  window.open("https://www.arsenal.com");
 }
 </script>
+</head>
+<body>
+
+<form>
+  <input type="button" value="Arsenal's Official Website" onclick="openWin()">
+</form>
+
+</body>
+</html>
 
       </head> 
       <body> 
