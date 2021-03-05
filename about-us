@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="sv">
-    <head> 
-        <title>Contact Us</title>
-</head>
-    <body>
-OUR TELEPHONE NUMBER: 420-112 13 37
-    </body>
 
-</html>
+</head> 
+<body> 
+
+  <html>
+<head>
+
+<style>
+      body {
+          font-family: sans-serif;
+          width: 500px;
+          margin: auto;
+          background-color: white-space nowrap;
+      }
+        </style>
+
+
+Contact Us:
+
+OUR TELEPHONE NUMBER: 420-112 13 37
+
+OUR EMAIL: arsenalpicturesfanclub@gmail.com
