@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+</head> 
+<body> 
+
+  <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+overflow: hidden;
+border: 1px solid #ccc;
+background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+background-color: inherit;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+display: none;
+padding: 6px 12px;
+border: 1px solid #ccc;
+border-top: none;
+}
+</style>
+</head>
+<body>
+
+<div class="tab">
+  <button class="tablinks" onclick="window.location.href='home.html'">Home</button>
+<button class="tablinks" onclick="window.location.href='history.html'">Histoy About Arsenal FC</button>
+<button class="tablinks" onclick="window.location.href='About-Us.html'">About Us</button>
+</div>
+
+<div id="Home" class="tabcontent">
+<h3>Home Page</h3>
+</div>
+
+<div id="Home" class="tabcontent">
+<h3>History of Arsenal Football Club</h3>
+</div>
+
+<div id="About Us" class="tabcontent">
+<h3>About Us</h3>
+</div>
+
+<script>
+function opentab(evt, tabName) {
+var i, tabcontent, tablinks;
+tabcontent = document.getElementsByClassName("tabcontent");
+for (i = 0; i < tabcontent.length; i++) {
+tabcontent[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablinks");
+for (i = 0; i < tablinks.length; i++) {
+tablinks[i].className = tablinks[i].className.replace(" active", "");
+}
+document.getElementById(cityName).style.display = "block";
+evt.currentTarget.className += " active";
+}
+</script>
+
+</body>
+</html> 
+
+<head> 
+    <meta charset="utf-8" />
+    <title>Arsenal Football Club
+    </title>
+  
+    <style>
+      body {
+          font-family: sans-serif;
+          width: 500px;
+          margin: auto;
+          background-color: white-space nowrap;
+      }
+        </style>
+<h>On this site you can find copyright free pics of the team, the logo and more!</h>
+<img src="afc1.png">
+<img src="stadiumlogo.jpg">
+
+<h2>Redirect to a Arsenal Football Club's  page.</h2>
+<p>*This is a fanmade page, not the official Arsenal website.*</p>
+
+<html>
+<head>
+<script>
+function openWin() {
+  window.open("https://www.arsenal.com");
+}
+</script>
+</head>
+<body>
+
+<form>
+  <input type="button" value="Arsenal's Official Website" onclick="openWin()">
+</form>
+
+</body>
+</html>      
